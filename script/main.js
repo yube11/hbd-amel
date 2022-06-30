@@ -274,7 +274,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-    "+=3");
+    "+=0.1");
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
