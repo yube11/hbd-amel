@@ -134,7 +134,7 @@ const animationTimeline = () => {
         rotationX: 15,
         rotationZ: -10,
         skewY: "-5deg",
-        y: 50,
+        y: 20,
         z: 10,
         opacity: 0,
       },
@@ -274,7 +274,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-    "+=0.1");
+    "+=3");
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
