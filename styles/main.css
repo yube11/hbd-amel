@@ -109,10 +109,10 @@ body {
 }
 
 .six .hat {
-  left: 55%;
+  left: 80%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -15%;
+  top: -10%;
   width: 100px;
 }
 

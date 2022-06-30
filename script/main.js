@@ -134,7 +134,7 @@ const animationTimeline = () => {
         rotationX: 15,
         rotationZ: -10,
         skewY: "-5deg",
-        y: 20,
+        y: 0,
         z: 10,
         opacity: 0,
       },
