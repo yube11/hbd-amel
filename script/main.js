@@ -263,7 +263,18 @@ const animationTimeline = () => {
         rotation: 90,
       },
       "+=1"
-    );
+    )
+    .from(".button", 0.7, {
+      opacity: 0,
+      y: 10
+    })
+    .to(".button",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+    "+=3");
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
